@@ -28,7 +28,7 @@ public class VitamioActivity extends ActionBarActivity {
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
-                vvContainer.setVideoURI(Uri.parse(Constants.URL_M3U8));
+                vvContainer.setVideoURI(Uri.parse(Constants.URL));
                 vvContainer.start();
             }
         });
